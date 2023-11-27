@@ -1,0 +1,35 @@
+/* *{
+    border: solid;
+} */
+h1{
+    color: rgb(196, 193, 199);
+    margin: 30px;
+}
+body{
+    background:linear-gradient(to right, rgb(255, 255, 255) , rgb(205, 186, 205));
+  
+}
+p,h2{
+    color: darkgray;
+}
+.header{
+  display: flex;
+
+   background: radial-gradient(circle, #403541, rgb(32, 8, 33));
+
+      
+}
+
+@keyframes my-animation {
+    from { opacity: 0; transform: translateY(-50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.grid{
+    display: flex;
+    animation: my-animation 1s ease-in-out;
+    justify-content: space-evenly;
+}
+.ordered{
+    color: antiquewhite;
+}
